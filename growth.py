@@ -39,7 +39,7 @@ if uploaded_files:
             continue
         #file detail  
         st.write("preview the head of data frame")
-        st.data_frame(df.head())
+        st.dataframe(df.head())
 
 
         #data cleaning opion
